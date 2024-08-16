@@ -1,0 +1,2 @@
+import{i as o}from"./vendor-77e16229.js";document.addEventListener("DOMContentLoaded",function(){const s=document.querySelector(".form");s&&s.addEventListener("submit",function(e){e.preventDefault();const n=parseInt(s.delay.value,10),i=s.state.value;r(n,i).then(t=>o.success({title:"Success",message:t})).catch(t=>o.error({title:"Error",message:t}))});function r(e,n){return new Promise((i,t)=>{setTimeout(()=>{n==="fulfilled"?i(` ✅ Fulfilled promise in ${e}ms`):t(`❌ Rejected promise in ${e}ms`)},e)})}});
+//# sourceMappingURL=2-snackbar-a9d2e1e7.js.map
